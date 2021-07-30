@@ -1,0 +1,108 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGS_CHECK	head.h	35;"	d
+CC	Makefile	/^CC:=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS:=-Wall -I \/usr\/include\/mysql\/ -I ..\/include\/$/;"	m
+Compute_file_md5	Diskofxiaojizhi/client.c	/^int Compute_file_md5(const char *file_path, char *md5_str)$/;"	f
+Compute_file_md5	factory.c	/^int Compute_file_md5(const char *file_path, char *md5_str)$/;"	f
+ELF	Makefile	/^ELF:=server$/;"	m
+ERROR_CHECK	head.h	36;"	d
+F	md5.h	12;"	d
+FF	md5.h	18;"	d
+FILENAME	head.h	38;"	d
+Factory_t	factory.h	/^}Factory_t,*pFactory_t;$/;"	t	typeref:struct:__anon1
+G	md5.h	13;"	d
+GG	md5.h	24;"	d
+Generate	Diskofxiaojizhi/client.c	/^char* Generate(){$/;"	f
+Generate	factory.c	/^char* Generate(){$/;"	f
+H	md5.h	14;"	d
+HH	md5.h	30;"	d
+I	md5.h	15;"	d
+II	md5.h	36;"	d
+MD5Decode	Diskofxiaojizhi/md5.c	/^void MD5Decode(unsigned int *output, unsigned char *input, unsigned int len)$/;"	f
+MD5Decode	md5.c	/^void MD5Decode(unsigned int *output, unsigned char *input, unsigned int len)$/;"	f
+MD5Encode	Diskofxiaojizhi/md5.c	/^void MD5Encode(unsigned char *output,unsigned int *input,unsigned int len)$/;"	f
+MD5Encode	md5.c	/^void MD5Encode(unsigned char *output,unsigned int *input,unsigned int len)$/;"	f
+MD5Final	Diskofxiaojizhi/md5.c	/^void MD5Final(MD5_CTX *context, unsigned char digest[16])$/;"	f
+MD5Final	md5.c	/^void MD5Final(MD5_CTX *context, unsigned char digest[16])$/;"	f
+MD5Init	Diskofxiaojizhi/md5.c	/^void MD5Init(MD5_CTX *context)$/;"	f
+MD5Init	md5.c	/^void MD5Init(MD5_CTX *context)$/;"	f
+MD5Transform	Diskofxiaojizhi/md5.c	/^void MD5Transform(unsigned int state[4], unsigned char block[64])$/;"	f
+MD5Transform	md5.c	/^void MD5Transform(unsigned int state[4], unsigned char block[64])$/;"	f
+MD5Update	Diskofxiaojizhi/md5.c	/^void MD5Update(MD5_CTX *context, unsigned char *input, unsigned int inputlen)$/;"	f
+MD5Update	md5.c	/^void MD5Update(MD5_CTX *context, unsigned char *input, unsigned int inputlen)$/;"	f
+MD5_CTX	md5.h	/^} MD5_CTX;$/;"	t	typeref:struct:__anon5
+MD5_H	md5.h	2;"	d
+MD5_SIZE	Diskofxiaojizhi/client.c	3;"	d	file:
+MD5_SIZE	factory.c	3;"	d	file:
+MD5_STR_LEN	Diskofxiaojizhi/client.c	4;"	d	file:
+MD5_STR_LEN	factory.c	4;"	d	file:
+Node_t	work_que.h	/^}Node_t,*pNode_t;$/;"	t	typeref:struct:tag_node
+OBJS	Makefile	/^OBJS:=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+PADDING	Diskofxiaojizhi/md5.c	/^unsigned char PADDING[] =$/;"	v
+PADDING	md5.c	/^unsigned char PADDING[] =$/;"	v
+ProcessData_t	head.h	/^}ProcessData_t,*pProcessData_t;$/;"	t	typeref:struct:__anon2
+Que_t	work_que.h	/^}Que_t,*pQue_t; $/;"	t	typeref:struct:__anon4
+READ_DATA_SIZE	Diskofxiaojizhi/client.c	2;"	d	file:
+READ_DATA_SIZE	factory.c	2;"	d	file:
+ROTATE_LEFT	md5.h	16;"	d
+SRCS	Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+STR_LEN	head.h	5;"	d
+THREAD_ERROR_CHECK	head.h	37;"	d
+_FACTORY_H_	factory.h	2;"	d
+_GNU_SOURCE	head.h	4;"	d
+_HEAD_H	head.h	2;"	d
+_WORK_QUE_H	work_que.h	2;"	d
+_XOPEN_SOURCE	head.h	3;"	d
+buf	head.h	/^    char buf[1000];$/;"	m	struct:__anon3
+buffer	md5.h	/^	unsigned char buffer[64];   $/;"	m	struct:__anon5
+busy	head.h	/^    short busy;$/;"	m	struct:__anon2
+capacity	work_que.h	/^    int capacity;$/;"	m	struct:__anon4
+cleanup	factory.c	/^void cleanup(void *p){$/;"	f
+cond	factory.h	/^    pthread_cond_t cond;$/;"	m	struct:__anon1
+configInit	factory.c	/^int configInit(char *path,char *addr,char *port,int *threadNum,int *capacity){$/;"	f
+control_code	head.h	/^    int control_code;$/;"	m	struct:__anon3
+count	md5.h	/^	unsigned int count[2];$/;"	m	struct:__anon5
+dataLen	head.h	/^    int dataLen;$/;"	m	struct:__anon3
+epollAdd	main.c	/^int epollAdd(int epfd,int fd){$/;"	f
+exitFds	main.c	/^int exitFds[2];$/;"	v
+factoryInit	factory.c	/^int factoryInit(pFactory_t pf,int threadNum,int capacity)$/;"	f
+factoryStart	factory.c	/^int factoryStart(pFactory_t pf){$/;"	f
+fds	head.h	/^    int fds;$/;"	m	struct:__anon2
+get_salt	factory.c	/^void get_salt(char *salt,char *passwd){$/;"	f
+handle	Diskofxiaojizhi/client.c	/^void handle(int signum){$/;"	f
+main	Diskofxiaojizhi/client.c	/^int main(int argc,char *argv[])$/;"	f
+main	main.c	/^int main(int argc,char *argv[])$/;"	f
+modeToLetter	factory.c	/^int modeToLetter(int mode,char *str){$/;"	f
+mutex	work_que.h	/^    pthread_mutex_t mutex;$/;"	m	struct:__anon4
+newFd	work_que.h	/^    int newFd;$/;"	m	struct:tag_node
+pFactory_t	factory.h	/^}Factory_t,*pFactory_t;$/;"	t	typeref:struct:__anon1
+pNext	work_que.h	/^    struct tag_node *pNext;$/;"	m	struct:tag_node	typeref:struct:tag_node::tag_node
+pNode_t	work_que.h	/^}Node_t,*pNode_t;$/;"	t	typeref:struct:tag_node
+pProcessData_t	head.h	/^}ProcessData_t,*pProcessData_t;$/;"	t	typeref:struct:__anon2
+pQue_t	work_que.h	/^}Que_t,*pQue_t; $/;"	t	typeref:struct:__anon4
+pid	head.h	/^    pid_t pid;$/;"	m	struct:__anon2
+pthid	factory.h	/^    pthread_t *pthid;$/;"	m	struct:__anon1
+que	factory.h	/^    Que_t que;$/;"	m	struct:__anon1
+queGet	work_que.c	/^int queGet(pQue_t pq,pNode_t* pGet){$/;"	f
+queHead	work_que.h	/^    pNode_t queHead,queTail;$/;"	m	struct:__anon4
+queInit	work_que.c	/^void queInit(pQue_t pq,int capacity){$/;"	f
+queInsert	work_que.c	/^void queInsert(pQue_t pq,pNode_t pNew){$/;"	f
+queTail	work_que.h	/^    pNode_t queHead,queTail;$/;"	m	struct:__anon4
+recvCycle	tran_n.c	/^int recvCycle(int fd,void *pstart,int len){$/;"	f
+sigExitFunc	main.c	/^void sigExitFunc(int signum){$/;"	f
+size	work_que.h	/^    int size;$/;"	m	struct:__anon4
+socketFd	Diskofxiaojizhi/client.c	/^int socketFd;$/;"	v
+startFlag	factory.h	/^    int startFlag;$/;"	m	struct:__anon1
+state	md5.h	/^	unsigned int state[4];$/;"	m	struct:__anon5
+tag_node	work_que.h	/^typedef struct tag_node{$/;"	s
+tcpInit	tcp_init.c	/^int tcpInit(int *sFd,char *addr,char *port){$/;"	f
+threadFunc	factory.c	/^void * threadFunc(void *p){$/;"	f
+threadNum	factory.h	/^    int threadNum;$/;"	m	struct:__anon1
+train_t	head.h	/^}train_t;$/;"	t	typeref:struct:__anon3
+tranFile	tran_file.c	/^int tranFile(int newFd,char *filepath)$/;"	f
+writeLog	factory.c	/^void writeLog(int newFd,char* userName,char* op){$/;"	f

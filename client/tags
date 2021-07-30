@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGS_CHECK	func.h	28;"	d
+CC	Makefile	/^CC:=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS:=-Wall$/;"	m
+ELF	Makefile	/^ELF:=client$/;"	m
+ERROR_CHECK	func.h	29;"	d
+OBJS	Makefile	/^OBJS:=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+ProcessData_t	func.h	/^}ProcessData_t,*pProcessData_t;$/;"	t	typeref:struct:__anon1
+SRCS	Makefile	/^SRCS:=$(wildcard *.c)$/;"	m
+THREAD_ERROR_CHECK	func.h	30;"	d
+buf	func.h	/^    char buf[1000];$/;"	m	struct:__anon2
+busy	func.h	/^    short busy;$/;"	m	struct:__anon1
+control_code	func.h	/^    int control_code;$/;"	m	struct:__anon2
+dataLen	func.h	/^    int dataLen;$/;"	m	struct:__anon2
+fds	func.h	/^    int fds;$/;"	m	struct:__anon1
+main	client.c	/^int main(int argc,char *argv[])$/;"	f
+pProcessData_t	func.h	/^}ProcessData_t,*pProcessData_t;$/;"	t	typeref:struct:__anon1
+pid	func.h	/^    pid_t pid;$/;"	m	struct:__anon1
+recvCycle	tran_n.c	/^int recvCycle(int fd,void *pstart,int len){$/;"	f
+train_t	func.h	/^}train_t;$/;"	t	typeref:struct:__anon2
